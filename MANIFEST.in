@@ -1,0 +1,7 @@
+include LICENSE
+include README.md
+recursive-include wagtail_mailer/static *
+recursive-include wagtail_mailer/templates *
+recursive-include wagtail_mailer/locale *
+recursive-include wagtail_mailer/migrations *
+recursive-include wagtail_mailer/templatetags *

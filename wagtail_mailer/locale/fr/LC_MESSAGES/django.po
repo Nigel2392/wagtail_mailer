@@ -1,0 +1,250 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-30 11:04+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\application\goodadvice\apps\mailer\actions.py:10
+msgid "Test Mail"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\actions.py:11
+msgid "Send a test mail to server admins"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\actions.py:55
+#, python-brace-format
+msgid ""
+"{servers} Server(s) have sent messages to a total of {mails_sent} users. "
+"Please be patient, and check your spam folder."
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\admin.py:28
+msgid "Mailservers"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\admin.py:46
+msgid "Mail Receivers"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\admin.py:54
+msgid "Admin Mail Receivers"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\admin.py:61
+msgid "Emails"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\error_handler.py:29
+msgid "The start of the status code range."
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\error_handler.py:36
+msgid "The end of the status code range."
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\error_handler.py:41
+msgid "The start of the range must be less than the end."
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\error_handler.py:56
+#: .\application\goodadvice\apps\mailer\models\receivers.py:44
+msgid "The email address to send emails to"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\error_handler.py:63
+msgid "A description of the user, or their occupation within the company."
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\error_handler.py:67
+msgid "Exception Receiver"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\error_handler.py:68
+#: .\application\goodadvice\apps\mailer\models\error_handler.py:93
+msgid "Exception Receivers"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\error_handler.py:74
+#: .\application\goodadvice\apps\mailer\models\receivers.py:88
+msgid "Mailbox"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\error_handler.py:75
+msgid "The mailbox to send exception emails from"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\error_handler.py:97
+#: .\application\goodadvice\apps\mailer\models\error_handler.py:98
+msgid "Exception Mail Settings"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:35
+msgid "The number of emails sent"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:42
+msgid "The email host"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:49
+msgid "The email port"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:56
+msgid "The email host user"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:63
+msgid "The email host password"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:67
+msgid "TLS"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:68
+msgid "SSL"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:69
+msgid "NONE"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:75
+msgid "The email use"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:80
+msgid "The email timeout in seconds"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:85
+msgid "Fail silently"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:93
+msgid "Email Host"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:97
+msgid "Email Host Credentials"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:102
+msgid "Email Options"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:106
+#: .\application\goodadvice\apps\mailer\models\receivers.py:102
+msgid "Admin Receivers"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:110
+msgid "Configuration"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:111
+msgid "Admin Emails"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:115
+msgid "Mail Server"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:116
+msgid "Mail Servers"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:118
+msgid "Can edit server password"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\receivers.py:16
+msgid "User"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\receivers.py:21
+msgid "The user associated with the email address"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\receivers.py:25
+msgid "Whether or not the email address receives emails"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\receivers.py:35
+msgid "User Receiver"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\receivers.py:36
+msgid "User Receivers"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\receivers.py:52
+msgid "The first name of the email recipient"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\receivers.py:59
+msgid "The last name of the email recipient"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\receivers.py:67
+msgid "Name"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\receivers.py:72
+#: .\application\goodadvice\apps\mailer\models\receivers.py:80
+msgid "Receiver"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\receivers.py:73
+#: .\application\goodadvice\apps\mailer\models\receivers.py:81
+msgid "Receivers"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\models\receivers.py:101
+msgid "Admin Receiver"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\templates\mailer\bulk_actions\test_mail.html:4
+#, python-format
+msgid "Test 1 server"
+msgid_plural "Test %(counter)s servers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\application\goodadvice\apps\mailer\templates\mailer\bulk_actions\test_mail.html:7
+msgid "Delete"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\templates\mailer\bulk_actions\test_mail.html:13
+msgid "Are you sure you want to test these servers?"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\templates\mailer\bulk_actions\test_mail.html:26
+msgid "You don't have permission to test this server"
+msgid_plural "You don't have permission to test these servers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\application\goodadvice\apps\mailer\templates\mailer\bulk_actions\test_mail.html:33
+msgid "Yes, test servers"
+msgstr ""
+
+#: .\application\goodadvice\apps\mailer\templates\mailer\bulk_actions\test_mail.html:34
+msgid "No, don't test servers"
+msgstr ""

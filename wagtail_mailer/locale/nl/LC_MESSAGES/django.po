@@ -1,0 +1,256 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-29 09:52+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Machine-Translator: OPUS-MT\n"
+"X-Machine-Translator-Creation: 2024-01-21T13:48:15.629771+00:00\n"
+"X-Machine-Translator-Source: en\n"
+"X-Machine-Translator-Target: nl\n"
+
+#: .\application\goodadvice\apps\mailer\actions.py:10
+msgid "Test Mail"
+msgstr "Test E-Mail"
+
+#: .\application\goodadvice\apps\mailer\actions.py:11
+msgid "Send a test mail to server admins"
+msgstr "Verstuur een test e-mail naar server admins"
+
+#: .\application\goodadvice\apps\mailer\actions.py:55
+#, python-brace-format
+msgid ""
+"{servers} Server(s) have sent messages to a total of {mails_sent} users. "
+"Please be patient, and check your spam folder."
+msgstr ""
+"{servers} Server(s) hebben berichten verstuurd naar een totaal van "
+"{mails_sent} gebruikers. Wees geduldig, en controleer je spam folder."
+
+#: .\application\goodadvice\apps\mailer\admin.py:27
+msgid "Mailservers"
+msgstr "E-mailservers"
+
+#: .\application\goodadvice\apps\mailer\admin.py:45
+msgid "Mail Receivers"
+msgstr "E-mail Ontvangers"
+
+#: .\application\goodadvice\apps\mailer\admin.py:53
+msgid "Admin Mail Receivers"
+msgstr "Admin E-mail Ontvangers"
+
+#: .\application\goodadvice\apps\mailer\admin.py:60
+msgid "Emails"
+msgstr "E-mails"
+
+#: .\application\goodadvice\apps\mailer\models\error_handler.py:29
+msgid "The start of the status code range."
+msgstr "Het begin van het statuscodebereik."
+
+#: .\application\goodadvice\apps\mailer\models\error_handler.py:36
+msgid "The end of the status code range."
+msgstr "Het einde van het statuscodebereik."
+
+#: .\application\goodadvice\apps\mailer\models\error_handler.py:41
+msgid "The start of the range must be less than the end."
+msgstr "Het begin van het bereik moet kleiner zijn dan het einde."
+
+#: .\application\goodadvice\apps\mailer\models\error_handler.py:56
+#: .\application\goodadvice\apps\mailer\models\receivers.py:44
+msgid "The email address to send emails to"
+msgstr "Het e-mail adres om e-mails naar te versturen"
+
+#: .\application\goodadvice\apps\mailer\models\error_handler.py:63
+msgid "A description of the user, or their occupation within the company."
+msgstr "Een beschrijving van de gebruiker, of hun functie binnen het bedrijf."
+
+#: .\application\goodadvice\apps\mailer\models\error_handler.py:67
+msgid "Exception Receiver"
+msgstr "Error Ontvanger"
+
+#: .\application\goodadvice\apps\mailer\models\error_handler.py:68
+#: .\application\goodadvice\apps\mailer\models\error_handler.py:93
+msgid "Exception Receivers"
+msgstr "Error Ontvangers"
+
+#: .\application\goodadvice\apps\mailer\models\error_handler.py:74
+#: .\application\goodadvice\apps\mailer\models\receivers.py:88
+msgid "Mailbox"
+msgstr "E-mailbox"
+
+#: .\application\goodadvice\apps\mailer\models\error_handler.py:75
+msgid "The mailbox to send exception emails from"
+msgstr "De mailbox om error e-mails van te versturen"
+
+#: .\application\goodadvice\apps\mailer\models\error_handler.py:97
+#: .\application\goodadvice\apps\mailer\models\error_handler.py:98
+msgid "Exception Mail Settings"
+msgstr "Error E-mail Instellingen"
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:35
+msgid "The number of emails sent"
+msgstr "Het aantal e-mails verstuurd"
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:42
+msgid "The email host"
+msgstr "De e-mail host"
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:49
+msgid "The email port"
+msgstr "De e-mail poort"
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:56
+msgid "The email host user"
+msgstr "De e-mail host gebruiker"
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:63
+msgid "The email host password"
+msgstr "Het e-mail host wachtwoord"
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:67
+msgid "TLS"
+msgstr "TLS"
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:68
+msgid "SSL"
+msgstr "SSL"
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:69
+msgid "NONE"
+msgstr "GEEN"
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:75
+msgid "The email use"
+msgstr "Email gebruikt"
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:80
+msgid "The email timeout in seconds"
+msgstr "De e-mail timeout in seconden"
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:85
+msgid "Fail silently"
+msgstr "Zwijg bij fouten"
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:93
+msgid "Email Host"
+msgstr "E-mail Host"
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:97
+msgid "Email Host Credentials"
+msgstr "E-mail Host Inloggegevens"
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:102
+msgid "Email Options"
+msgstr "E-mail Opties"
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:106
+#: .\application\goodadvice\apps\mailer\models\receivers.py:102
+msgid "Admin Receivers"
+msgstr "Admin Ontvangers"
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:110
+msgid "Configuration"
+msgstr "Configuratie"
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:111
+msgid "Admin Emails"
+msgstr "Admin E-mails"
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:115
+msgid "Mail Server"
+msgstr "E-mail Server"
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:116
+msgid "Mail Servers"
+msgstr "E-mail Servers"
+
+#: .\application\goodadvice\apps\mailer\models\mailer.py:118
+msgid "Can edit server password"
+msgstr "Kan server wachtwoord aanpassen"
+
+#: .\application\goodadvice\apps\mailer\models\receivers.py:16
+msgid "User"
+msgstr "Gebruiker"
+
+#: .\application\goodadvice\apps\mailer\models\receivers.py:21
+msgid "The user associated with the email address"
+msgstr "De gebruiker geassocieerd met het e-mail adres"
+
+#: .\application\goodadvice\apps\mailer\models\receivers.py:25
+msgid "Whether or not the email address receives emails"
+msgstr "Of het e-mail adres e-mails ontvangt"
+
+#: .\application\goodadvice\apps\mailer\models\receivers.py:35
+msgid "User Receiver"
+msgstr "Gebruiker Ontvanger"
+
+#: .\application\goodadvice\apps\mailer\models\receivers.py:36
+msgid "User Receivers"
+msgstr "Gebruiker Ontvangers"
+
+#: .\application\goodadvice\apps\mailer\models\receivers.py:52
+msgid "The first name of the email recipient"
+msgstr "De voornaam van de e-mail ontvanger"
+
+#: .\application\goodadvice\apps\mailer\models\receivers.py:59
+msgid "The last name of the email recipient"
+msgstr "De achternaam van de e-mail ontvanger"
+
+#: .\application\goodadvice\apps\mailer\models\receivers.py:67
+msgid "Name"
+msgstr "Naam"
+
+#: .\application\goodadvice\apps\mailer\models\receivers.py:72
+#: .\application\goodadvice\apps\mailer\models\receivers.py:80
+msgid "Receiver"
+msgstr "Ontvanger"
+
+#: .\application\goodadvice\apps\mailer\models\receivers.py:73
+#: .\application\goodadvice\apps\mailer\models\receivers.py:81
+msgid "Receivers"
+msgstr "Ontvangers"
+
+#: .\application\goodadvice\apps\mailer\models\receivers.py:101
+msgid "Admin Receiver"
+msgstr "Admin Ontvanger"
+
+#: .\application\goodadvice\apps\mailer\templates\mailer\bulk_actions\test_mail.html:4
+#, python-format
+msgid "Test 1 server"
+msgid_plural "Test %(counter)s servers"
+msgstr[0] "Test 1 server"
+msgstr[1] "Test %(counter)s servers"
+
+#: .\application\goodadvice\apps\mailer\templates\mailer\bulk_actions\test_mail.html:7
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: .\application\goodadvice\apps\mailer\templates\mailer\bulk_actions\test_mail.html:13
+msgid "Are you sure you want to test these servers?"
+msgstr "Weet je zeker dat je deze servers wilt testen?"
+
+#: .\application\goodadvice\apps\mailer\templates\mailer\bulk_actions\test_mail.html:26
+msgid "You don't have permission to test this server"
+msgid_plural "You don't have permission to test these servers"
+msgstr[0] "Je hebt geen toestemming om deze server te testen"
+msgstr[1] "Je hebt geen toestemming om deze servers te testen"
+
+#: .\application\goodadvice\apps\mailer\templates\mailer\bulk_actions\test_mail.html:33
+msgid "Yes, test servers"
+msgstr "Ja, servers testen"
+
+#: .\application\goodadvice\apps\mailer\templates\mailer\bulk_actions\test_mail.html:34
+msgid "No, don't test servers"
+msgstr "Nee, servers niet testen"
